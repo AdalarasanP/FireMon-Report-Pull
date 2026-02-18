@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -68,3 +69,16 @@ Thumbs.db
 # Project specific
 sc-report*
 firemon-report*
+=======
+# Ignore everything
+*
+
+# Except the Python script
+!gw-rulebase-lookup.py
+!.gitignore
+
+# Explicitly ignore logs, JSON, and text output files
+*.log
+*.json
+*.txt
+>>>>>>> 52b6b47b04eb6fc8ee9d1c9eeff66d2d2c076fa8
