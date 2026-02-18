@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Except the Python script
+!gw-rulebase-lookup.py
+!.gitignore
+
+# Explicitly ignore logs, JSON, and text output files
+*.log
+*.json
+*.txt
